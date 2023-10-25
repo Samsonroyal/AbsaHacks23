@@ -10,5 +10,8 @@
     "Blockchain"
   ],
   "author": "Blockfam (Samson Were)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.18.3"
+  }
 }
