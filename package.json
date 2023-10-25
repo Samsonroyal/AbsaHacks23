@@ -1,0 +1,14 @@
+{
+  "name": "absahacks23",
+  "version": "1.0.0",
+  "description": "Team BlockFams submission for Absa Hacks 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Blockchain"
+  ],
+  "author": "Blockfam (Samson Were)",
+  "license": "MIT"
+}
