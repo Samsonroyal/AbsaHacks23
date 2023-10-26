@@ -2,6 +2,11 @@
 
 BlockFam is a blockchain-powered plugin designed to streamline the loan underwriting and verification process for ABSA Bank. It leverages blockchain technology to facilitate tasks like loan disbursement, application approval/denial, KYC re-verification, and application filtering based on credit scores.
 
+## Features
+- Credit Loan Applicant's bank account
+- Accept Or Deny Loan application
+- Filter loan applications using credit score
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -41,8 +46,7 @@ Install project dependencies:
 
   ```
   npm install
-  ```
-
+  ````
 
 ## Usage
 To use the BlockFam plugin, follow the instructions below:
