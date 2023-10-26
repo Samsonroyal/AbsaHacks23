@@ -9,16 +9,21 @@ BlockFam is a blockchain-powered plugin designed to streamline the loan underwri
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Running Unit Tests](#running-unit-tests)
-- [Deployment](#deployment)
-- [Testnet Setup](#testnet-setup)
-- [Code Coverage](#code-coverage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [BlockFam: ABSA Loan Underwriting \& Verification on Blockchain](#blockfam-absa-loan-underwriting--verification-on-blockchain)
+  - [Features](#features)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Clone this repository:](#clone-this-repository)
+      - [Use the command below:](#use-the-command-below)
+      - [Open with Github Desktop:](#open-with-github-desktop)
+    - [Install project dependencies:](#install-project-dependencies)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
+  - [Testnet Setup](#testnet-setup)
+  - [Code Coverage](#code-coverage)
+  - [Project Structure](#project-structure)
+  - [License](#license)
 
 ## Prerequisites
 
@@ -30,18 +35,18 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/[your-username]/[your-repo-name].git
-     ```
+### Clone this repository:
+#### Use the command below:
+  ```
+   git clone https://github.com/Samsonroyal/AbsaHacks23.git
+    
+  ```
    
-Change to the project directory:
+#### Open with Github Desktop:
+  
+  Alternatively, you can clone the repository using Github Desktop. Click on the "Code" button at the top of the repository and select "Open with Github Desktop" to clone the repository to your local machine.
 
-  ```
-   cd [your-repo-name]
-  ```
-
-Install project dependencies:
+### Install project dependencies:
 
 
   ```
