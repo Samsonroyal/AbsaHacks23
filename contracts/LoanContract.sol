@@ -20,8 +20,14 @@ contract LoanContract {
         minimumCreditScoreRequirement = _minimumCreditScore;
     }
 
-    function submitLoanApplication(uint loanAmount, uint applicantCreditScore) external {
-        require(applicantCreditScore >= minimumCreditScoreRequirement, "Credit score does not meet the minimum requirement");
+    function submitLoanApplication(
+        uint loanAmount,
+        uint applicantCreditScore
+    ) external {
+        require(
+            applicantCreditScore >= minimumCreditScoreRequirement,
+            "Credit score does not meet the minimum requirement"
+        );
 
         LoanApplication memory application;
         application.applicant = msg.sender;
@@ -38,13 +44,20 @@ contract LoanContract {
 
     function filterAndSubmitApplications() external onlyAdmin {
         for (uint i = 0; i < loanApplications.length; i++) {
-            if (loanApplications[i].applicantCreditScore >= minimumCreditScoreRequirement) {
+            if (
+                loanApplications[i].applicantCreditScore >=
+                minimumCreditScoreRequirement
+            ) {
                 loanApplications[i].approved = true;
             }
         }
     }
 
-    function getApprovedApplications() external view returns (LoanApplication[] memory) {
+    function getApprovedApplications()
+        external
+        view
+        returns (LoanApplication[] memory)
+    {
         uint approvedCount = 0;
 
         for (uint i = 0; i < loanApplications.length; i++) {
@@ -53,7 +66,9 @@ contract LoanContract {
             }
         }
 
-        LoanApplication[] memory approvedApplications = new LoanApplication[](approvedCount);
+        LoanApplication[] memory approvedApplications = new LoanApplication[](
+            approvedCount
+        );
         uint index = 0;
 
         for (uint i = 0; i < loanApplications.length; i++) {
